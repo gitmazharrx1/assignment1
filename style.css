@@ -3,3 +3,92 @@ body{
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(255, 153, 0),salmon);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.top{
+    display: flex;
+    margin-top: 70px;
+}
+.text-color{
+    color: orange;
+}
+.text-color1{
+    color: grey;
+}
+.top img{
+    width: 75%;
+    float: right;
+    margin-right: 70px;
+}
+.top-text{
+    width: 60%;
+    margin-left: 70px;
+}
+.top-image{
+    width: 47%;
+}
+
+.mid1{
+    display: flex;
+    margin-top: 70px;
+    background-image: url(images/shapes/7.png);
+    margin-left: 0%;
+}
+.mid1 img{
+    width: 60%;
+    margin-left: 150px;
+}
+.mid1-text{
+    padding-left: 300px;
+}
+.ptext{
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.recipies{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.recipies img{
+    width: 80%;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+
+.account{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 120px;
+    border-radius: 25px;
+}
+.account1{
+    padding-left: 150px;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #1C2833;
+}
